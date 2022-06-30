@@ -1,0 +1,27 @@
+.documentation {
+    width: 100%;
+    height: 400px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.documentation h2 {
+    font-size: 2.5rem;
+    color: var(--black);
+    font-family: Roboto-Bold;
+    text-align: center;
+}
+
+.documentation h3 {
+    font-size: 1.3rem;
+    color: var(--black);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.documentation .btn.primary {
+    width: 280px;
+}
