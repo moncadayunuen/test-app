@@ -47,7 +47,7 @@ const whatWeDo = (props) => {
                             <div className="section-what-we-do__info-subtitle">
                                 <div className="line-dark"></div>
                                 <h2>{ props.title }</h2>
-                                <div className="line-dark"></div>
+                                <div className="line dark"></div>
                             </div>
                             <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit d fugiat deleniti modi iure, explicabo doloremque </h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi iure, explicabo doloremque distinctio similique.</p>

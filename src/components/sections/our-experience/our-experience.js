@@ -18,7 +18,7 @@ const ourExperience = () => {
                         </article>
                         <article>
                             <div className="section-our-experience__title">
-                                <div className="line-white"></div>
+                                <div className="line white"></div>
                                 <h2>Nuestra Experiencia</h2>
                             </div>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi iure, explicabo doloremque distinctio similique, possimus commodi saepe eaque omnis sint.</p>

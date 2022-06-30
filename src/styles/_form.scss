@@ -4,10 +4,7 @@
   align-items: center;
   &__input-text {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    @include flex-start-column;
     label {
       font-size: 1rem;
       color: $dark;

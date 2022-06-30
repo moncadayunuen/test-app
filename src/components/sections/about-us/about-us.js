@@ -23,7 +23,7 @@ const aboutUs = (props) => {
                         <div className="section-about-us__title">
                             <div className="line-dark"></div>
                             <p>{ props.title }</p>
-                            <div className="line-dark"></div>
+                            <div className="line dark"></div>
                         </div>
                         <h2>Lorem ipsum, dolor sit amet consectetur adipisicing<br /> elit. Est dignissimos consequatur doloribus</h2>
                         <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est dignissimos <br />consequatur doloribus odio nam, ad fugiat deleniti modi iure, explicabo <br />doloremque distinctio similique, possimus.</h3>

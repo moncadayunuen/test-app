@@ -9,9 +9,9 @@ const HeaderContact = (props) => {
                         <div className="header-contact">
                             <div className="header-contact__intro">
                                 <div className="header-contact__subtitle">
-                                    <div className="line-white"></div>
+                                    <div className="line white"></div>
                                     <h2>{ props.title }</h2>
-                                    <div className="line-white"></div>
+                                    <div className="line white"></div>
                                 </div>
                             </div>
                             <div className="header-contact__title">

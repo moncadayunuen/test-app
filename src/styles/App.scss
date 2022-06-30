@@ -29,31 +29,36 @@ main {
   background: linear-gradient(to bottom, $blue, $darkblue 80%);
 }
 
-.line-dark {
+.line {
   width: 40px;
   height: 1px;
-  background: $black;
   margin: 0 1rem 0 0;
-}
-
-@media(max-width: 992px) {
-  .container {
-    width: 100%;
-    padding: 0 .5rem;
+  &.white {
+    background: $white;
+  }
+  &.dark {
+    background: $black;
   }
 }
 
-@import "form";
-@import "btns";
+  @media(max-width: $md) {
+    .container {
+      width: 100%;
+      padding: 0 .5rem;
+    }
+  }
 
-@import "../components/nav/nav";
-@import "../components/header/header";
-@import "../components/footer/footer";
+  @import "form";
+  @import "btns";
 
-@import "../components/sections/about-us/about-us";
-@import "../components/sections/documentation/documentation";
-@import "../components/sections/our-experience/our-experience";
-@import "../components/sections/what-we-do/what-we-do";
+  @import "../components/nav/nav";
+  @import "../components/header/header";
+  @import "../components/footer/footer";
 
-@import "../components/header-contact/header-contact";
-@import "../components/contact-form/contact-form";
+  @import "../components/sections/about-us/about-us";
+  @import "../components/sections/documentation/documentation";
+  @import "../components/sections/our-experience/our-experience";
+  @import "../components/sections/what-we-do/what-we-do";
+
+  @import "../components/header-contact/header-contact";
+  @import "../components/contact-form/contact-form";

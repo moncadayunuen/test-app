@@ -16,8 +16,7 @@ import logo from '../../assets/logo-test.webp';
         <>
             <nav>
                 <div className="nav-info">
-                    <div className="container">
-                        <div className="nav-info">
+                    <div className="nav-info">
                             <div className="nav-info__personal">
                                 <Link to="#" onClick={() => { window.open('tel:9933524257','_blank','nofollow') }}>
                                     <svg width="20" height="20" viewBox="0 0 20 20">
@@ -37,10 +36,8 @@ import logo from '../../assets/logo-test.webp';
                                 <Link to="#" onClick={() => { window.open('','_blank','nofollow') }}>Web mail</Link>
                             </div>
                         </div>
-                    </div>
                 </div>
-                <div className="container">
-                    <div className="main-menu">
+                <div className="main-menu">
                         <div className="main-menu__burger">
                             <button className={`btn-burger ${navbarOpen ? "show-menu" : ""}`} onClick={handleToggle}>
                                 <div className="line-btn"></div>
@@ -66,7 +63,6 @@ import logo from '../../assets/logo-test.webp';
                             <button className="btn primary">Cotizar Ahora</button>
                         </div>
                     </div>
-                </div>
             </nav>
         </>
     );

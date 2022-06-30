@@ -11,9 +11,9 @@ const Header = (props) => {
                     <div className="container">
                         <div className="header">
                             <div className="header__intro">
-                                <div className="line-white"></div>
+                                <div className="line white"></div>
                                 <p>{ props.title }</p>
-                                <div className="line-white"></div>
+                                <div className="line white"></div>
                             </div>
                             <div className="header__title">
                                 <h2>Lorem ipsum, dolor sit amet  </h2>
