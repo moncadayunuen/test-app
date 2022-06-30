@@ -45,7 +45,7 @@ const whatWeDo = (props) => {
                     <article className="section-what-we-do">
                         <section className="section-what-we-do__info">
                             <div className="section-what-we-do__info-subtitle">
-                                <div className="line-dark"></div>
+                                <div className="line dark"></div>
                                 <h2>{ props.title }</h2>
                                 <div className="line dark"></div>
                             </div>

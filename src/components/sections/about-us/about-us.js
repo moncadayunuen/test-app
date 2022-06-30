@@ -21,7 +21,7 @@ const aboutUs = (props) => {
                 <div className="section-about-us">
                     <article>
                         <div className="section-about-us__title">
-                            <div className="line-dark"></div>
+                            <div className="line dark"></div>
                             <p>{ props.title }</p>
                             <div className="line dark"></div>
                         </div>
