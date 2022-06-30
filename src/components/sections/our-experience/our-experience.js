@@ -1,7 +1,6 @@
 import React from 'react';
 
 import img1 from '../../../assets/nuestra-experiencia.webp';
-import "./our-experience.css";
 
 const ourExperience = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/styles.css';
+
 import Nav from "../components/nav/nav";
 import OurExperience from "../components/sections/our-experience/our-experience";
 import Footer from "../components/footer/footer";

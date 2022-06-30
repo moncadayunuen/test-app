@@ -1,0 +1,72 @@
+.container-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__input-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    label {
+      font-size: 1rem;
+      color: $dark;
+      padding-left: .5rem;
+    }
+  }
+  input[type=text], input[type=email] {
+    width: 95%;
+    height: 45px;
+    border-radius: .5rem;
+    border: .1rem solid $gray;
+    background: $light-gray;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    @include m-rl-auto;
+    transition: .25s ease-in-out;
+  }
+}
+
+.container-inputs__input-text input[type=text]:hover, .container-inputs__input-text input[type=email]:hover {
+  border: .1rem solid $light-gray;
+}
+
+.container-inputs__input-text input[type=text]:focus, .container-inputs__input-text input[type=email]:focus {
+  border: .1rem solid $light-gray;
+  box-shadow: none;
+  outline: 0;
+}
+
+.container-inputs__input-text input[type=email] {
+  width: 97%;
+  height: 45px;
+  border-radius: .5rem;
+  border: .1rem solid $gray;
+  background: $light-gray;
+  margin-bottom: 1rem;
+  @include m-rl-auto;
+}
+
+.container-inputs__textarea {
+  width: 97%;
+  margin: 0 auto 0 auto;
+}
+
+.container-inputs__textarea textarea {
+  width: 100%;
+  border-radius: .5rem;
+  border: .1rem solid $gray;
+  background: $light-gray;
+  resize: none;
+}
+
+.container-inputs__checkbox {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+
+.container-inputs__checkbox label {
+  padding-left: 1rem;
+}

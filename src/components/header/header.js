@@ -1,14 +1,13 @@
 import React from 'react';
-import '../../css/styles.css';
-
-import './header.css';
 import {Link} from "react-router-dom";
+
+import './_header.scss';
 
 const Header = (props) => {
     return (
         <>
             <header className="img">
-                <div className="bg-header">
+                <div className="bg-blue">
                     <div className="container">
                         <div className="header">
                             <div className="header__intro">

@@ -7,8 +7,6 @@ import img3 from '../../../assets/sobre-nosotros-03.webp';
 import img4 from '../../../assets/sobre-nosotros-04.webp';
 import img5 from '../../../assets/sobre-nosotros-05.webp';
 
-import "./about-us.css";
-
 const aboutUs = (props) => {
 
     const img1_info = '';

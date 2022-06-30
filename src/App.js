@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from './pages/home.js';
 import Contact from './pages/contact.js';
 
+import './styles/App.scss';
+
 const App = () => {
   return (
       <>

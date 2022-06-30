@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./webfonts/roboto-300.woff");
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("./webfonts/roboto-regular.woff");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("./webfonts/roboto-500.woff");
+}
+
+@font-face {
+  font-family: Roboto-Black;
+  src: url("./webfonts/roboto-700.woff");
+}
+
+@font-face {
+  font-family: Roboto-Heavy;
+  src: url("./webfonts/roboto-900.woff");
+}
+
+/* WEBSITE COLORS */
+$white: #ffffff;
+$dark: #333333;
+$black: #1C1C1C;
+$aqua: #44CBE0;
+$blue: #18236C;
+$darkblue: #101A58;
+$darkerblue: #12183B;
+$gray: #AAAAAA;
+$light-gray: #F5F5F5;
+/* MIXINS */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+};
+@mixin flex-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@mixin flex-start-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@mixin m-rl-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* SIZES FOR MOBILE SCREENS */
+$lg: 1200px;
+$md: 992px;
+$sm: 768px;
+$xs: 375px;

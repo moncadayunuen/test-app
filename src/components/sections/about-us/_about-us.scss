@@ -1,0 +1,101 @@
+.section-about-us {
+    width: 100%;
+    height: auto;
+    background: $white;
+    padding: 7rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section-about-us__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-about-us__title p{
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.section-about-us h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: Roboto-Bold;
+    padding: 2rem 1rem;
+}
+
+.section-about-us h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 2rem;
+    line-height: 2rem;
+    letter-spacing: .05rem;
+}
+
+.section-about-us__list-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 1rem;
+}
+
+.section-about-us__list-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 1rem;
+}
+
+.section-about-us__list-1 li, .section-about-us__list-2 li {
+    width: 350px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $white;
+    border-radius: 3rem 0 3rem 0;
+    margin: 0 auto;
+    transition: .25s ease-in-out;
+}
+
+.section-about-us__list-1  li figure img, .section-about-us__list-2 li figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-about-us__list-1  li p, .section-about-us__list-2 li p {
+    text-align: center;
+    font-family: Roboto-Medium;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+}
+
+.section-about-us__list-1 li:hover, .section-about-us__list-2 li:hover {
+    box-shadow: 0 0 1rem rgba(0,0,0,.3);
+}
+
+.section-about-us__list-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width: 1200px) {
+    .section-about-us__list-1 li, .section-about-us__list-2 li {
+        width: 300px;
+        height: 290px;
+    }
+}
+
+@media(max-width: 992px) {
+    .section-about-us__list-1 li, .section-about-us__list-2 li {
+        width: 200px;
+        height: 210px;
+    }
+    .section-about-us__list-1 li p, .section-about-us__list-2 li p{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+}

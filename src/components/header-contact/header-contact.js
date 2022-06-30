@@ -1,13 +1,10 @@
 import React from 'react';
-import '../../css/styles.css';
-
-import './header-contact.css';
 
 const HeaderContact = (props) => {
     return (
         <>
             <header className="img-header-contact">
-                <div className="bg-header">
+                <div className="bg-blue">
                     <div className="container">
                         <div className="header-contact">
                             <div className="header-contact__intro">

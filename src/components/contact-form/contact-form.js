@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './contact-form.css';
 import {Link} from "react-router-dom";
 
 const ContactForm = (props) => {

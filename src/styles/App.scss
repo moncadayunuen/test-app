@@ -1,0 +1,59 @@
+@import "variables";
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body, html { font-family: Roboto-Regular, sans-serif; font-size: 16px; }
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 135px - 220px);
+  background: $white;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+.bg-blue {
+  width: 100%;
+  height: 100%;
+  background: $blue;
+  opacity: .9;
+}
+
+.bg-gradient-blue {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, $blue, $darkblue 80%);
+}
+
+.line-dark {
+  width: 40px;
+  height: 1px;
+  background: $black;
+  margin: 0 1rem 0 0;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 0 .5rem;
+  }
+}
+
+@import "form";
+@import "btns";
+
+@import "../components/nav/nav";
+@import "../components/header/header";
+@import "../components/footer/footer";
+
+@import "../components/sections/about-us/about-us";
+@import "../components/sections/documentation/documentation";
+@import "../components/sections/our-experience/our-experience";
+@import "../components/sections/what-we-do/what-we-do";
+
+@import "../components/header-contact/header-contact";
+@import "../components/contact-form/contact-form";

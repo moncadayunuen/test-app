@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 import logo from '../../assets/logo-test.webp';
-import './footer.css';
 
 const footer = () => {
 

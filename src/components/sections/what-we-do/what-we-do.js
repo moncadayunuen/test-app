@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import img1 from '../../../assets/que-hacemos-01.webp';
 import img2 from '../../../assets/que-hacemos-02.webp';
 import img3 from '../../../assets/que-hacemos-circulos.webp';
-import "./what-we-do.css";
 
 const whatWeDo = (props) => {
 
